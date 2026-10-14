@@ -1,0 +1,26 @@
+
+=== supervisor start @ 2026-10-14T18:54:13.039720 ===
+2026-10-14 18:54:13.272 IST [24704] LOG:  starting PostgreSQL 16.13 on x86_64-w64-mingw32, compiled by gcc.exe (Rev5, Built by MSYS2 project) 16.1.0, 64-bit
+2026-10-14 18:54:13.278 IST [24704] LOG:  listening on Unix socket "../run/.s.PGSQL.5432"
+2026-10-14 18:54:13.422 IST [20076] LOG:  database system was interrupted; last known up at 2026-10-14 18:20:48 IST
+2026-10-14 18:54:19.998 IST [20076] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-10-14 18:54:20.004 IST [20076] LOG:  redo starts at 0/1C65438
+2026-10-14 18:54:20.004 IST [20076] LOG:  invalid record length at 0/1C65520: expected at least 24, got 0
+2026-10-14 18:54:20.004 IST [20076] LOG:  redo done at 0/1C654E8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-10-14 18:54:20.024 IST [26872] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-10-14 18:54:20.056 IST [26872] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.010 s, sync=0.007 s, total=0.044 s; sync files=2, longest=0.005 s, average=0.004 s; distance=0 kB, estimate=0 kB; lsn=0/1C65520, redo lsn=0/1C65520
+2026-10-14 18:54:20.152 IST [24704] LOG:  database system is ready to accept connections
+2026-10-14 18:56:21.915 IST [25480] ERROR:  unterminated quoted identifier at or near "" createdAt\" at character 25
+2026-10-14 18:56:21.915 IST [25480] STATEMENT:  SELECT id, email, name, " createdAt\
+2026-10-14 18:59:20.061 IST [26872] LOG:  checkpoint starting: time
+2026-10-14 18:59:21.280 IST [26872] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.171 s, sync=0.021 s, total=1.218 s; sync files=10, longest=0.006 s, average=0.003 s; distance=26 kB, estimate=26 kB; lsn=0/1C6BD90, redo lsn=0/1C6BD58
+2026-10-14 19:04:20.283 IST [26872] LOG:  checkpoint starting: time
+2026-10-14 19:04:21.646 IST [26872] LOG:  checkpoint complete: wrote 13 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.311 s, sync=0.027 s, total=1.364 s; sync files=13, longest=0.012 s, average=0.003 s; distance=44 kB, estimate=44 kB; lsn=0/1C770C8, redo lsn=0/1C77090
+2026-10-14 19:14:20.657 IST [26872] LOG:  checkpoint starting: time
+2026-10-14 19:14:21.461 IST [26872] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.778 s, sync=0.009 s, total=0.804 s; sync files=8, longest=0.003 s, average=0.002 s; distance=31 kB, estimate=43 kB; lsn=0/1C7EF40, redo lsn=0/1C7EF08
+2026-10-14 19:19:20.462 IST [26872] LOG:  checkpoint starting: time
+2026-10-14 19:19:21.703 IST [26872] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.210 s, sync=0.011 s, total=1.241 s; sync files=12, longest=0.004 s, average=0.001 s; distance=48 kB, estimate=48 kB; lsn=0/1C8B000, redo lsn=0/1C8AFC8
+2026-10-14 19:24:20.693 IST [26872] LOG:  checkpoint starting: time
+2026-10-14 19:24:22.602 IST [26872] LOG:  checkpoint complete: wrote 18 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.847 s, sync=0.018 s, total=1.910 s; sync files=17, longest=0.004 s, average=0.002 s; distance=77 kB, estimate=77 kB; lsn=0/1CA9868, redo lsn=0/1C9E5B8
+2026-10-14 19:29:20.616 IST [26872] LOG:  checkpoint starting: time
+2026-10-14 19:29:25.347 IST [26872] LOG:  checkpoint complete: wrote 43 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.694 s, sync=0.020 s, total=4.731 s; sync files=25, longest=0.006 s, average=0.001 s; distance=179 kB, estimate=179 kB; lsn=0/1CCB3B8, redo lsn=0/1CCB380
