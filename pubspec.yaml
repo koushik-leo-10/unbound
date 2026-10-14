@@ -1,0 +1,11 @@
+name: _
+publish_to: none
+
+environment:
+  sdk: '^3.12.2'
+
+workspace:
+  - mindmap_ai_client
+  - mindmap_ai_server
+  - mindmap_ai_flutter
+

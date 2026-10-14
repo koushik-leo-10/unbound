@@ -1,0 +1,20 @@
+﻿# ─── Dart / Flutter ──────────────────────────────────────────────────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+.packages
+pubspec.lock        # not needed for apps published within workspace
+
+# ─── Serverpod embedded database ─────────────────────────────────────────────
+# Database files stay on each machine — do NOT share across laptops
+mindmap_ai_server/.serverpod/
+
+# ─── Secrets — NEVER commit these ────────────────────────────────────────────
+**/config/passwords.yaml
+
+# ─── IDE / OS ────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
