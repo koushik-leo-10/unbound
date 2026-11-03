@@ -1,0 +1,6 @@
+class: SummaryResult
+fields:
+  summary: String
+  keyPoints: List<String>
+  actionItems: List<String>
+  suggestedTasks: List<SuggestedTask>

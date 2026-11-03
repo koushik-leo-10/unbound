@@ -1,0 +1,14 @@
+class: UserAccount
+table: user_account
+fields:
+  name: String
+  email: String
+  passwordHash: String
+  salt: String
+  avatarUrl: String?
+  createdAt: DateTime
+  lastLoginAt: DateTime?
+indexes:
+  user_account_email_idx:
+    fields: email
+    unique: true

@@ -1,0 +1,11 @@
+# dueAt is the scheduled START time; the task occupies [dueAt, dueAt + durationMinutes].
+class: Task
+table: task
+fields:
+  title: String
+  dueAt: DateTime?
+  durationMinutes: int
+  priority: TaskPriority
+  status: TaskStatus
+  sourceNoteId: int?
+  createdAt: DateTime

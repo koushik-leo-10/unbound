@@ -1,0 +1,4 @@
+class: DailySuggestion
+fields:
+  message: String
+  generatedByAi: bool

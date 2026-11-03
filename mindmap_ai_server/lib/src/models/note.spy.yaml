@@ -1,0 +1,7 @@
+class: Note
+table: note
+fields:
+  title: String
+  content: String
+  summary: String?
+  createdAt: DateTime

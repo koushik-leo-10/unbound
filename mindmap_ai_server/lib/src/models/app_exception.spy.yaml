@@ -1,0 +1,4 @@
+# Typed exception: the Flutter client receives AppException with a user-friendly message.
+exception: AppException
+fields:
+  message: String

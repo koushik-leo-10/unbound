@@ -1,0 +1,6 @@
+enum: VoiceIntent
+serialized: byName
+values:
+  - note
+  - task
+  - unknown

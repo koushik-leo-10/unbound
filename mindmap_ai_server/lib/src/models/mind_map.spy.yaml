@@ -1,0 +1,9 @@
+class: MindMap
+table: mind_map
+fields:
+  title: String
+  rootNodeJson: String
+  sourceNoteId: int?
+  userId: int?
+  createdAt: DateTime
+  updatedAt: DateTime

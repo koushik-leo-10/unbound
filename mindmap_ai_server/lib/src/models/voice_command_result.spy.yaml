@@ -1,0 +1,8 @@
+class: VoiceCommandResult
+fields:
+  intent: VoiceIntent
+  title: String
+  content: String
+  dueAt: DateTime?
+  priority: TaskPriority
+  durationMinutes: int

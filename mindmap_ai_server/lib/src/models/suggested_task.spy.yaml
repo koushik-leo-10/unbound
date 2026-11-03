@@ -1,0 +1,7 @@
+# A task proposed by the AI. Never saved until the user confirms it.
+class: SuggestedTask
+fields:
+  title: String
+  dueAt: DateTime?
+  priority: TaskPriority
+  durationMinutes: int

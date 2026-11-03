@@ -1,0 +1,9 @@
+# One row for the demo user. Working hours = minutes after local midnight (09:00 -> 540).
+class: UserPreferences
+table: user_preferences
+fields:
+  workingDayStartMinutes: int
+  workingDayEndMinutes: int
+  breakMinutes: int
+  timezone: String
+  timezoneOffsetMinutes: int

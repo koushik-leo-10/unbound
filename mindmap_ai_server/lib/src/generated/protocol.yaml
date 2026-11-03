@@ -1,0 +1,44 @@
+emailIdp:
+  - login:
+  - startRegistration:
+  - verifyRegistrationCode:
+  - finishRegistration:
+  - startPasswordReset:
+  - verifyPasswordResetCode:
+  - finishPasswordReset:
+  - hasAccount:
+jwtRefresh:
+  - refreshAccessToken:
+ai:
+  - summarizeText:
+  - generateMindMap:
+  - processVoiceCommand:
+  - getDailySuggestion:
+mindMaps:
+  - createMindMap:
+  - getMindMaps:
+  - getMindMap:
+  - updateMindMap:
+  - deleteMindMap:
+notes:
+  - createNote:
+  - getNotes:
+  - updateNote:
+  - deleteNote:
+preferences:
+  - getPreferences:
+  - savePreferences:
+tasks:
+  - createTask:
+  - getTasks:
+  - getOverdueTasks:
+  - getPrioritizedTasks:
+  - updateTask:
+  - deleteTask:
+  - suggestReschedule:
+  - rescheduleTask:
+user:
+  - register:
+  - login:
+  - getDashboardStats:
+  - getProfile:

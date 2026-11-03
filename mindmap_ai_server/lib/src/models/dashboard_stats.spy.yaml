@@ -1,0 +1,8 @@
+class: DashboardStats
+fields:
+  totalNotes: int
+  pendingTasks: int
+  completedTasks: int
+  overdueTasks: int
+  totalTasks: int
+  notesWithSummaries: int

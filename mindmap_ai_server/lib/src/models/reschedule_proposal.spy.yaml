@@ -1,0 +1,5 @@
+class: RescheduleProposal
+fields:
+  task: Task
+  proposedStart: DateTime
+  proposedEnd: DateTime
